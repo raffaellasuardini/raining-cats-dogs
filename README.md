@@ -39,55 +39,6 @@ To run this app locally, follow these steps:
    git clone https://github.com/yourusername/raining-cats-and-dogs-app.git
    ```
 
-Certainly! Here's a README.md template for your React app:
-
-markdown
-Copy code
-
-# Raining Cats and Dogs App
-
-Welcome to the Raining Cats and Dogs App! This React-based weather application provides you with up-to-date weather information for your city. Whether you're planning a trip or just curious about the weather, this app has you covered.
-
-![Raining Cats and Dogs App Screenshot](screenshot.png)
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Demo](#demo)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-The Raining Cats and Dogs App allows you to check the current weather conditions, a 4-day forecast, and hourly weather updates for your chosen city. It's a user-friendly and visually appealing way to stay informed about the weather.
-
-## Demo
-
-You can try the app live at [Demo Link](https://your-demo-link.com).
-
-## Features
-
-- **Current Weather:** View the current temperature, weather description, and date for your city.
-- **4-Day Forecast:** Check the weather forecast for the next 4 days, including minimum and maximum temperatures and weather icons.
-- **Hourly Updates:** Get hourly weather updates, including temperature, feels-like temperature, and weather description.
-- **City Search:** Easily change your city by entering its name in the search bar.
-- **Responsive Design:** The app is responsive and works well on both desktop and mobile devices.
-
-## Installation
-
-To run this app locally, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/raffaellasuardini/raining-cats-and-dogs-app.git
-
-   ```
-
 2. Navigate to the project directory:
 
 ```bash
