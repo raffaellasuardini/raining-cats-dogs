@@ -14,6 +14,7 @@ function City(props) {
   }
 
   const handleGoogleFetch = async () => {
+    if (!inputCity) return false;
     const apiUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${inputCity}&key=${props.googleKey}`;
     console.log(apiUrl);
 
