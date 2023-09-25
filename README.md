@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+# Raining Cats & Dogs App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Raining Cats and Dogs App! This React-based weather application provides you with up-to-date weather information for your city. Whether you're planning a trip or just curious about the weather, this app has you covered.
 
-## Available Scripts
+![Raining Cats and Dogs App Screenshot](screenshot.png)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Introduction](#introduction)
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Raining Cats and Dogs App allows you to check the current weather conditions, a 4-day forecast, and hourly weather updates for your chosen city. It's a user-friendly and visually appealing way to stay informed about the weather.
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can try the app live at [Demo Link](https://your-demo-link.com).
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Current Weather:** View the current temperature, weather description, and date for your city.
+- **4-Day Forecast:** Check the weather forecast for the next 4 days, including minimum and maximum temperatures and weather icons.
+- **Hourly Updates:** Get hourly weather updates, including temperature, feels-like temperature, and weather description.
+- **City Search:** Easily change your city by entering its name in the search bar.
+- **Responsive Design:** The app is responsive and works well on both desktop and mobile devices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run this app locally, follow these steps:
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/yourusername/raining-cats-and-dogs-app.git
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Certainly! Here's a README.md template for your React app:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+markdown
+Copy code
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Raining Cats and Dogs App
 
-## Learn More
+Welcome to the Raining Cats and Dogs App! This React-based weather application provides you with up-to-date weather information for your city. Whether you're planning a trip or just curious about the weather, this app has you covered.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Raining Cats and Dogs App Screenshot](screenshot.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Table of Contents
 
-### Code Splitting
+- [Introduction](#introduction)
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Introduction
 
-### Analyzing the Bundle Size
+The Raining Cats and Dogs App allows you to check the current weather conditions, a 4-day forecast, and hourly weather updates for your chosen city. It's a user-friendly and visually appealing way to stay informed about the weather.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Demo
 
-### Making a Progressive Web App
+You can try the app live at [Demo Link](https://your-demo-link.com).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Features
 
-### Advanced Configuration
+- **Current Weather:** View the current temperature, weather description, and date for your city.
+- **4-Day Forecast:** Check the weather forecast for the next 4 days, including minimum and maximum temperatures and weather icons.
+- **Hourly Updates:** Get hourly weather updates, including temperature, feels-like temperature, and weather description.
+- **City Search:** Easily change your city by entering its name in the search bar.
+- **Responsive Design:** The app is responsive and works well on both desktop and mobile devices.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Installation
 
-### Deployment
+To run this app locally, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Clone the repository:
 
-### `npm run build` fails to minify
+   ```bash
+   git clone https://github.com/raffaellasuardini/raining-cats-and-dogs-app.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```
+
+2. Navigate to the project directory:
+
+```bash
+cd raining-cats-and-dogs-app
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm start
+```
+
+5. Open your web browser and go to http://localhost:3000 to use the app.
+
+## Usage
+
+Enter the name of your city in the search bar and press Enter.
+View the current weather conditions, 4-day forecast, and hourly updates.
+
+## Technologies
+
+This app is built using the following technologies:
+
+- React
+- Material-UI
+- OpenWeather API
+- Google Maps Geocoding API
