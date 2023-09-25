@@ -2,12 +2,9 @@
 
 Welcome to the Raining Cats and Dogs App! This React-based weather application provides you with up-to-date weather information for your city. Whether you're planning a trip or just curious about the weather, this app has you covered.
 
-![Raining Cats and Dogs App Screenshot](screenshot.png)
-
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -16,10 +13,6 @@ Welcome to the Raining Cats and Dogs App! This React-based weather application p
 ## Introduction
 
 The Raining Cats and Dogs App allows you to check the current weather conditions, a 4-day forecast, and hourly weather updates for your chosen city. It's a user-friendly and visually appealing way to stay informed about the weather.
-
-## Demo
-
-You can try the app live at [Demo Link](https://your-demo-link.com).
 
 ## Features
 
