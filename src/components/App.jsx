@@ -9,6 +9,12 @@ import Today from "./Today";
 import Footer from "./Footer";
 import Hour from "./Hour";
 
+import {
+  formatDayWeather,
+  formatTodayWeatherData,
+  formatHourWeather,
+} from "../utils";
+
 function App() {
   const googleKey = process.env.REACT_APP_GOOGLE_API_KEY;
   const endpointWeather = process.env.REACT_APP_OPENWEATHER_ENDPOINT;
@@ -47,71 +53,6 @@ function App() {
       description: "",
     },
   ]);
-
-  /* helper function */
-
-  function formatDate(milliseconds, options) {
-    return new Date(milliseconds * 1000).toLocaleString("en", options);
-  }
-
-  function formatIcon(code) {
-    return `https://openweathermap.org/img/wn/${code}@2x.png`;
-  }
-
-  function formatTemp(temp) {
-    const roundedTemp = temp.toFixed(1);
-    if (roundedTemp.endsWith(".0")) {
-      return parseInt(roundedTemp).toString() + "°";
-    }
-    return roundedTemp + "°";
-  }
-
-  function formatTodayWeatherData(data) {
-    return {
-      min: formatTemp(data.daily[0].temp.min),
-      max: formatTemp(data.daily[0].temp.max),
-      temp: formatTemp(data.current.temp),
-      description: data.current.weather[0].description,
-      date: formatDate(data.current.dt, {
-        weekday: "long",
-        month: "long",
-        day: "numeric",
-      }),
-    };
-  }
-
-  function formatDayWeather(data) {
-    return data.daily.map((day, index) => {
-      const { dt } = day;
-      const { min, max } = day.temp;
-      const { icon, description } = day.weather[0];
-
-      return {
-        key: index,
-        date: formatDate(dt, { weekday: "short" }),
-        max: formatTemp(max),
-        min: formatTemp(min),
-        srcImg: formatIcon(icon),
-        description: description,
-      };
-    });
-  }
-
-  function formatHourWeather(data) {
-    return data.hourly.map((hour, index) => {
-      let { dt, temp, feels_like } = hour;
-      let { icon, description } = hour.weather[0];
-
-      return {
-        key: index,
-        hour: formatDate(dt, { hour: "numeric", hour12: true }),
-        temp: formatTemp(temp),
-        feelsLike: formatTemp(feels_like),
-        srcImg: formatIcon(icon),
-        description: description,
-      };
-    });
-  }
 
   /* fetching data from weather api */
   const fetchWeather = async () => {
