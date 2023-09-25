@@ -29,7 +29,7 @@ To run this app locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/raining-cats-and-dogs-app.git
+   git clone https://github.com/raffaellasuardini/raining-cats-and-dogs-app.git
    ```
 
 2. Navigate to the project directory:
@@ -38,19 +38,25 @@ To run this app locally, follow these steps:
 cd raining-cats-and-dogs-app
 ```
 
-3. Install dependencies:
+3. Copy `.env.example` to `.env`
+
+```bash
+cp .env.example .env
+```
+
+4. Install dependencies:
 
 ```bash
 npm install
 ```
 
-4. Start the development server:
+5. Start the development server:
 
 ```bash
 npm start
 ```
 
-5. Open your web browser and go to http://localhost:3000 to use the app.
+6. Open your web browser and go to http://localhost:3000 to use the app.
 
 ## Usage
 
